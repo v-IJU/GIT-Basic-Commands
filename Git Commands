@@ -1,0 +1,14 @@
+git config --global user.name "Your Name" -Configure the author name
+git config --global user.email "Your Email"-Configure the author email
+git init-Initialize Git on Folder
+git add <filename> - Add one File to Staging
+git add * - Add One or More  Files To Staging
+git commit -m "Commit message"-Commit changes to head (but not yet to the remote repository):
+git checkout -b <branchname>-Create a new branch and switch to it:
+git checkout <branchname>-Switch from one branch to another:
+git branch-List all the branches
+git branch -d <branchname>-Delete the feature branch:
+git merge <branchname>-To merge a different branch into your active branch:
+git remote add origin 'your_url_name'-ADD your Github repo URL
+git push -u origin master-is used for pushing local content to GitHub.
+git push --all origin-Push all branches to your remote repository:
